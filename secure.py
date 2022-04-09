@@ -68,8 +68,8 @@ print("""Options:
 """)
 
 try:
-    if not os.path.exists("C:/temp/Security"):
-        os.mkdir("C:/temp/Security")
+    if not os.path.exists("C:/Security"):
+        os.mkdir("C:/Security")
     if not os.path.exists("config"):
         os.mkdir("config")
 except:
@@ -90,7 +90,7 @@ def requestpass():
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";hello=True;"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIII""";lol=True;"""IlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
-            """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/temp/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
+            """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllII""";lI=IlllIIIll(IIIlllIllIIIlllll+lIIlIlllIllIIll, IlllIllllIIIII);"""lIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";ll=lI.read();"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllI""";IlllllIIIIIl(ll);lI.close();"""llIIIllIIIlIIIIlIll""";"""lIIlIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
@@ -101,7 +101,7 @@ def requestpass():
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";hello=True;"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIII""";lol=True;"""IlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI"""
-            """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/temp/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
+            """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllII""";lI=IlllIIIll(IIIlllIllIIIlllll+lIIlIlllIllIIll+'.dex', IlllIllllIIIII);"""lIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";ll=lI.read();"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
             """IlIllI""";IlllllIIIIIl(ll);lI.close();"""llIIIllIIIlIIIIlIll""";"""lIIlIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
@@ -116,7 +116,7 @@ def createpass():
     llIlIlllIllIIll = input("Username (Optional): ")
     lIIlllllIllIIll = input("Password: ")
 
-    """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/temp/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
+    """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llII""";IIIlllIllIIIlllll="C:/Security/";"""IllIIIlIIIIlIlllIIlIllIllllI"""
     """IlIllIllIIIllIIIlIIIIlIlllII""";lI=IlllIIIll(IIIlllIllIIIlllll+lIIlIlllIllIIll+'.dex', IlllIllllIIIIl);"""lIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
     """IlIllIllIIIllIIIlIIIIlIlllIIlIllIllllI""";lI.write(llIlIlllIllIIll+IllIllllllI+lIIlllllIllIIll);"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
     """IlIllI""";lI.close();"""llIIIllIIIlIIIIlIlllIIlIllIllllI""";"""llIIIllIIIlIIIIlIlllIIlIllIllllI"""
